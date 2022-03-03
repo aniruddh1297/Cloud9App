@@ -1,6 +1,28 @@
 .hero{
 
-    height:40%;
+    height:30%;
+    width: 47%;
+    float:left;
 
+}
+.container {
+ 
+    height: 30%;
+    width: 47%;
+    border: 5px solid #000000;
+    padding: 10px;
+    background-color: #3A6394;
+    float: right;
+}
+.heading {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    color: white;
+}
 
+.paragraph {
+    text-align: justify;
+    font-size: 30px;
+    color: white;
 }
