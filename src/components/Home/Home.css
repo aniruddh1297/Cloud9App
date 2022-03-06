@@ -6,13 +6,13 @@
 
 }
 .container {
- 
+    background-color: rgba(58, 99, 148, 1);
     height: 30%;
     width: 47%;
-    border: 5px solid #000000;
+    border: 5px solid black;
     padding: 10px;
-    background-color: #3A6394;
     float: right;
+   /* background-color: 3A6394;*/
 }
 .heading {
     text-align: center;
@@ -24,5 +24,11 @@
 .paragraph {
     text-align: justify;
     font-size: 30px;
+    color:  white;
+}
+
+.text {
     color: white;
+    text-align: left;
+    font-size: 30px;
 }
