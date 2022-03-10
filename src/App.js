@@ -39,13 +39,10 @@ function App() {
           Home
         </NavLink>
         <NavLink to="/about">About</NavLink>
-        <NavLink to="/products">Buyers Guide</NavLink>
+        <NavLink to="/products">Hot Cams</NavLink>
         <NavLink to="/accessories">Accessories</NavLink>
         <NavLink to="/software">Softwares</NavLink>
         <NavLink to="/forum">Forum</NavLink>
-        <Button value={loggedIn} displayTrue={'Logout'} displayFalse={'Login'} handleChange={handleLogin}
-        isLoading={isLoading}
-        />
       </nav>
 
       <Switch>

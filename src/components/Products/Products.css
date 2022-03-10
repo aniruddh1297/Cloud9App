@@ -1,4 +1,54 @@
-.products {
-  display: flex;
-  gap: 20px;
+.card-container{
+
+position: absolute;
+left: 2.36%;
+right: 72.29%;
+top: 28.52%;
+bottom: 8.67%;
+
+background: rgba(231, 124, 25, 0.65);
+border: 1px solid #7A7A7A;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 46px;
+}
+
+
+.search-box{
+
+  
+left: 10%;
+right: 74.58%;
+top: 36.62%;
+bottom: 58.2%;
+
+float: right;
+padding: 6px;
+border: none;
+margin-top: 25px;
+margin-right: 60px;
+font-size: 17px;
+
+background: #F5F5FA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(170, 170, 204, 0.25), inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #FFFFFF;
+border-radius: 40px;
+
+}
+
+.Select-test{
+
+  align-items: center;
+}
+
+.submitBtn{
+
+  margin-left: 115px;
+  margin-bottom: 120px;
+  border-radius: 12px;
+  background-color: white;
+  padding: 12px 28px;
+  width: 25%;
+  text-align: center;
+  
+
 }
