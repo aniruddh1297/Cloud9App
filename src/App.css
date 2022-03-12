@@ -6,8 +6,128 @@ nav {
   margin: 0 auto;
   border-bottom: 1px solid #e2e2e2;
   margin-bottom: 40px;
+  
+    
 }
 
 nav h1 {
-  margin-right: auto;
+  position: absolute;
+  width: 320px;
+  height: 73px;
+  left: 154px;
+  top: 10px;
+
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.home {
+  position: absolute;
+    width: 146px;
+    height: 49px;
+    left: 54px;
+    top: 160px;
+    
+    /*background: rgba(255, 255, 255, 0.45);
+    border-radius: 34px;*/
+  
+    font-family: 'Lao Sans Pro';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+  
+    color: white;
+
+}
+.hotcams {
+  position: absolute;
+  width: 180px;
+  height: 35px;
+  left: 260px;
+  top: 164px;
+
+  font-family: 'Lao Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+
+}
+
+.accessories {
+  position: absolute;
+  width: 159px;
+  height: 35px;
+  left: 480px;
+  top: 164px;
+  
+  font-family: 'Lao Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  
+  color: #FFFFFF;
+}
+
+.software {
+  position: absolute;
+  width: 159px;
+  height: 35px;
+  left: 749px;
+  top: 164px;
+
+  font-family: 'Lao Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+
+}
+
+.forum {
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  left: 988px;
+  top: 164px;
+
+  font-family: 'Lao Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+
+}
+
+.aboutus {
+  position: absolute;
+  width: 180px;
+  height: 35px;
+  left: 1170px;
+  top: 164px;
+
+  font-family: 'Lao Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+}
+
