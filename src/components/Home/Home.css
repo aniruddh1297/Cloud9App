@@ -1,30 +1,76 @@
-.content {
-    position: relative;
-width: 1440px;
-height: 1024px;
+/*.content {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(180deg, rgba(0, 163, 255, 0.8) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(179.61deg, rgba(255, 92, 0, 0.9) 44.45%, rgba(0, 0, 0, 0) 99.7%), linear-gradient(180deg, rgba(0, 137, 165, 0.99) -25.49%, rgba(1, 85, 102, 0.99) 151.61%);
 
-background: linear-gradient(180deg, rgba(0, 163, 255, 0.8) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(179.61deg, rgba(255, 92, 0, 0.9) 44.45%, rgba(0, 0, 0, 0) 99.7%), linear-gradient(180deg, rgba(0, 137, 165, 0.99) -25.49%, rgba(1, 85, 102, 0.99) 151.61%);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /*left: 85px;
+    top: 164px;*/
+
+    /*font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+
+    color: #000000;
+}*/
+
+/*.logo{
+    position: absolute;
+    width: 133px;
+    height: 104px;
+    left: 21px;
+    top: 30px;
+
+    background: url(logo.jpeg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 144px;
+}*/
+
+/*.title {
+    position: absolute;
+    width: 320px;
+    height: 73px;
+    left: 154px;
+    top: 49px;
+
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-    
 
 .home {
-
     position: absolute;
     width: 146px;
     height: 49px;
     left: 54px;
     top: 157px;
-
+    
     background: rgba(255, 255, 255, 0.45);
     border-radius: 34px;
+
+    font-family: 'Lao Sans Pro';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+
+    color: black;
  }
 
 .hotcams {
     position: absolute;
-    width: 140px;
+    width: 180px;
     height: 35px;
-    left: 243px;
+    left: 260px;
     top: 164px;
 
     font-family: 'Lao Sans Pro';
@@ -39,9 +85,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .accessories {
     position: absolute;
-    width: 179px;
+    width: 159px;
     height: 35px;
-    left: 502px;
+    left: 480px;
     top: 164px;
     
     font-family: 'Lao Sans Pro';
@@ -57,7 +103,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
     width: 159px;
     height: 35px;
-    left: 759px;
+    left: 749px;
     top: 164px;
 
     font-family: 'Lao Sans Pro';
@@ -74,7 +120,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
     width: 100px;
     height: 35px;
-    left: 1038px;
+    left: 988px;
     top: 164px;
 
     font-family: 'Lao Sans Pro';
@@ -89,9 +135,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .aboutus {
     position: absolute;
-    width: 136px;
+    width: 180px;
     height: 35px;
-    left: 1259px;
+    left: 1170px;
     top: 164px;
 
     font-family: 'Lao Sans Pro';
@@ -101,16 +147,16 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     line-height: 35px;
 
     color: #FFFFFF;
-}
+}*/
 .tagline{
     position: absolute;
     width: 782px;
     height: 80px;
     left: 448px;
-    top: 328px;
+    top: 350px;
 
     font-family: 'Lemonada';
-    font-style: normal;
+    font-style: italic;
     font-weight: 380;
     font-size: 40px;
     line-height: 80px;
@@ -121,7 +167,61 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    text-emphasis-color: transparent;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.img {
+    position: absolute;
+    width: 650px;
+    height: 529px;
+    left: 0px;
+    top: 500px;
+    background-image:url('background_image.png');
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))drop-shadow(0px 4px 4px rgba(0, 0 ,0, 0.25))drop-shadow(0px 4px 4px rgba(0, 0 ,0, 0.25))drop-shadow(0px 4px 4px rgba(0, 0 ,0, 0.25))drop-shadow(0px 4px 4px rgba(0, 0 ,0, 0.25));
+        
+}
+
+.explorenow {
+    position: absolute;
+    width: 372px;
+    height: 142px;
+    left: 1044px;
+    top: 877px;
+
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+
+}
+.button {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 1044px;
+    top: 877px;
+
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 45px;
+    text-shadow: 2px 2px red;
+    color: #FFFFFF;
+
+    background-color: rgba(255, 255, 255, 0.45);;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

@@ -34,15 +34,15 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <h1>Cloud 9</h1>
-        <NavLink to="/" exact>
+        <h1>SHUTTERNITROS</h1>
+        <NavLink to="/" exact className="home">
           Home
         </NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/products">Hot Cams</NavLink>
-        <NavLink to="/accessories">Accessories</NavLink>
-        <NavLink to="/software">Softwares</NavLink>
-        <NavLink to="/forum">Forum</NavLink>
+        <NavLink to="/about" className="aboutus">About</NavLink>
+        <NavLink to="/products" className="hotcams">Hot Cams</NavLink>
+        <NavLink to="/accessories" className="accessories">Accessories</NavLink>
+        <NavLink to="/software" className="software">Softwares</NavLink>
+        <NavLink to="/forum" className="forum">Forum</NavLink>
       </nav>
 
       <Switch>
