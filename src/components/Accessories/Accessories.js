@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+/*import { NavLink } from 'react-router-dom';
 import './Accessories.css';
 //import SimpleImageSlider from "react-simple-image-slider";
 
@@ -35,4 +35,4 @@ const Accessories = () => {
     )
 }
 
-export default Accessories;
+export default Accessories;*/
