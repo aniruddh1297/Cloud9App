@@ -6,6 +6,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import "./Selector.css";
 
+
 export default function Selector() {
   const [age, setAge] = React.useState('');
   const [price,setPrice]=React.useState('');
@@ -44,6 +45,7 @@ export default function Selector() {
         </Select>
         <FormHelperText></FormHelperText>
       </FormControl>
+      
      
       <FormControl sx={{ m: 1, minWidth: 120 }}>
           <h2>Price</h2>
