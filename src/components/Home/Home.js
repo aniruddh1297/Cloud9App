@@ -6,7 +6,7 @@ const Home = () => {
    
       <div className='tagline'>Capture Moments Make Memories</div>
     
-      <a href="#" class="button">EXPLORE NOW</a>
+      <a href="http://localhost:3000/products" class="button">EXPLORE NOW</a>
       <div className='img'>&nbsp;</div>
     </div>
   );

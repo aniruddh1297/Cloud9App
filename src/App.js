@@ -34,12 +34,13 @@ function App() {
   return (
     <div className="App">
       <nav>
+        <div className="logo"></div>
         <h1>SHUTTERNITROS</h1>
         <NavLink to="/" exact className="home">
           Home
         </NavLink>
-        <NavLink to="/about" className="aboutus">About</NavLink>
-        <NavLink to="/products" className="hotcams">Hot Cams</NavLink>
+        <NavLink to="/about" className="aboutus">About Us</NavLink>
+        <NavLink to="/products" className="hotcams">Camera</NavLink>
         <NavLink to="/accessories" className="accessories">Accessories</NavLink>
         <NavLink to="/software" className="software">Softwares</NavLink>
         <NavLink to="/forum" className="forum">Forum</NavLink>
