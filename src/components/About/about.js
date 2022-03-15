@@ -5,6 +5,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Info from "./info/info";
 import Offers from "./offers/Offers";
+import './about.css';
 
 
 
@@ -30,27 +31,12 @@ const About = () => {
     //   </Switch>
     // </div>
      
-      <div className="content">
-        <h2>About Us</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tempora
-          nisi eligendi quod ut illo cumque quibusdam reprehenderit veniam. Cum
-          eaque, nostrum fugit ut inventore assumenda perspiciatis sed maiores
-          numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Obcaecati nam repellat hic dolore officia sequi quis quod commodi iusto
-          doloremque. Corporis in et placeat unde sapiente perspiciatis minus!
-          Recusandae, ad!
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tempora
-          nisi eligendi quod ut illo cumque quibusdam reprehenderit veniam. Cum
-          eaque, nostrum fugit ut inventore assumenda perspiciatis sed maiores
-          numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Obcaecati nam repellat hic dolore officia sequi quis quod commodi iusto
-          doloremque. Corporis in et placeat unde sapiente perspiciatis minus!
-          Recusandae, ad!
-        </p>
-      </div>
+    <div className="content-5">
+        <div className="heading">About Us</div>
+        <div className="text-5">ShutterNitros  is an online free for all consultancy service.  Providing accurate information about cameras and accessories. People looking for a quickstart in photography are welcome.
+          In depth information about Softwares and their core functionalities. Stay Updated with our Forum panel listing various upcoming events. The Product mainly focuses on a one-stop solution by providing relevant and quality info about photography and videography.
+        </div>
+    </div>
     );
 
 
